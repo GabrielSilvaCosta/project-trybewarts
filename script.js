@@ -14,4 +14,19 @@ const validacao = () => {
 window.onload = () => {
   const botaoValidar = document.querySelector('#validacao');
   botaoValidar.addEventListener('click', validacao);
+
+  const botaoSubmit = document.querySelector('#submit-btn');
+  const inputPromo = document.querySelector('#agreement');
+  botaoSubmit.disabled = true;
+  botaoSubmit.addEventListener('click', (event) => {
+    event.preventDefault();
+  });
+
+  inputPromo.addEventListener('click', concordarComOUso = () => {
+    if (inputPromo.checked) {
+      botaoSubmit.disabled = false;
+    } else {
+      botaoSubmit.disabled = true;
+    }
+  });
 };
