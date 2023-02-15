@@ -26,7 +26,16 @@ main {
   height: 500px;
 }
 
+#familia-e-conteudo {
+  display: flex;
+}
+
 #familia {
+  display: flex;
+  flex-direction: column;
+}
+
+#conteudo {
   display: flex;
   flex-direction: column;
 }
