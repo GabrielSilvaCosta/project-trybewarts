@@ -11,6 +11,18 @@ const validacao = () => {
   }
 };
 
+const contadorDeCaracteres = () => {
+  const textarea = document.querySelector('#textarea');
+  const counter = document.querySelector('#counter');
+  counter.textContent = 500;
+  textarea.addEventListener('input', () => {
+    counter.textContent = 500 - textarea.value.length;
+  });
+};
+
+const textarea = document.querySelector('#textarea');
+textarea.addEventListener('input', contadorDeCaracteres);
+
 window.onload = () => {
   const botaoValidar = document.querySelector('#validacao');
   botaoValidar.addEventListener('click', validacao);
