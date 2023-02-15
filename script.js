@@ -21,8 +21,8 @@ window.onload = () => {
   botaoSubmit.addEventListener('click', (event) => {
     event.preventDefault();
   });
-  // eslint-disable-next-line no-undef
-  inputPromo.addEventListener('click', concordarComOUso = () => {
+
+  inputPromo.addEventListener('click', () => {
     if (inputPromo.checked) {
       botaoSubmit.disabled = false;
     } else {
