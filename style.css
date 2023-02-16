@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +9,21 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  height: 75px;
+  align-items: center;
 }
 
 .header img {
-  width: 90px;
+  width: 65px;
+  height: 65px;
+  margin: 15px;
 }
 
- #trybewarts-header-title{
+#trybewarts-header-title {
   align-self: center;
   color: white;
+  font-size: xx-large;
+  font-family: 'Inknut Antiqua', serif;
 }
 
 .trybewarts-login {
@@ -23,12 +31,37 @@
   align-self: center;
   margin: 20px;
   height: 45px;
-  border: 2px solid black
 }
 
+#email {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#senha {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#validacao {
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgb(77, 0, 77);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Inknut Antiqua', serif;
+}
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(236, 230, 230);
 }
 
 #evaluation-form {
@@ -53,4 +86,181 @@ main {
 #conteudo {
   display: flex;
   flex-direction: column;
+}
+
+#form-avaliativo {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+#nome-e-sobrenome {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#input-name {
+  padding: 10px 0px 10px 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#input-lastname {
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+hr {
+  margin-top: 15px;
+}
+
+#input-email {
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#house {
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  width: 275px;
+  background-color: white;
+  font-weight: bold;
+}
+
+#familia-e-conteudo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#label-family{
+  width: 315px;
+}
+
+#familia {
+  width: 290px;
+  font-size: medium;
+  font-family: 'Inknut Antiqua', serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: flex-start;
+}
+
+#conteudo {
+  width: 290px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+#label-content {
+  text-align: left;
+}
+
+#conteudos-a-aprender {
+  width: 310px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#conteudos-a-aprender2 {
+  width: 310px;
+  display: flex;
+}
+
+.subject {
+  margin-left: 10px;
+}
+
+#avaliacao {
+  display: flex;
+  margin-left: 15px;
+  width: 615px;
+  justify-content: space-between;
+  font-size: medium;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+#text-area {
+  width: 650px;
+}
+
+#texto-do-textarea {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 615px;
+  font-size: small;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+#conteudo-textarea {
+  width: 615px;
+  text-align: left;
+  margin-left: 12px;
+}
+
+#textarea {
+  resize: none;
+  border-radius: 10px;
+  width: 640px;
+  border-color: rgb(77, 0, 77);
+}
+
+#counter {
+  width: 615px;
+  text-align: left;
+}
+
+#contador {
+  width: 615px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#area-check {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#label-infos {
+  margin-right: 5px;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: small;
+}
+
+#botao-enviar {
+  width: 650px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-left: 295px;
+  padding-right: 295px;
+  background-color: rgb(77, 0, 77);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+footer {
+  margin-top: 15px;
+  height: 50px;
+  background-color: #3e3e3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
 }
