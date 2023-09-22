@@ -1,10 +1,14 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Formulário de Avaliação da Trybewarts
+
+Este projeto consiste em um formulário de avaliação desenvolvido para coletar feedback dos alunos da Trybewarts, uma escola de programação mágica.
+
+## O que foi feito
+
+- Criado um formulário interativo para os alunos avaliarem a Trybewarts.
+- Coletadas informações pessoais dos alunos.
+- Permitido aos alunos selecionar suas casas preferidas.
+- Capturadas avaliações da escola e interesses em conteúdo de aprendizado.
+- Incluída a opção de deixar comentários opcionais.
+- Adicionado um campo de concordância com o uso das informações.
+
+Este projeto foi desenvolvido como parte do curso de Desenvolvimento Web Full Stack da Trybewarts.
